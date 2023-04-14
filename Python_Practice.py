@@ -4,7 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
+print("helloo")
 import pandas as pd
 Fifa19 = pd.read_csv("C:/Users/jacob/Fifa19.csv")
 Fifa19 = Fifa19.set_index("Name")
